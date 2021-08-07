@@ -2,9 +2,7 @@ from exif import Image
 import os
 import datetime
 
-directory = r'C:\Users\MartinRothe\OneDrive - Rothe\Pictures\Joscha&Ruth\Picked'
-# directory = r'/mnt/c/Users/MartinRothe/OneDrive - Rothe/Pictures/Joscha&Ruth/Picked'
-
+directory = r'C:\Users\a'
 
 for filename in os.listdir(directory):
     if filename.endswith(".jpg"):
